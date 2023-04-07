@@ -23,6 +23,7 @@ pip install networkx
 pip install matplotlib
 pip install torch
 pip install torch-geometric
+pip install scikit-learn
 ```
 
 This repository the Python 3.10.5 and the following Packages:
@@ -43,6 +44,18 @@ To run the model, simply run the following command:
 ``` 
 $ python Main_GNN.py
 ```
-You will then be prompted to provide two inputs, the first being:
+You will then be prompted to provide two inputs, the first asking for a dataset, input one of:
+```
+Cora, CiteSeer, PubMed
+```
+Then select which GNN method: 
+```
+Spectral_GCN, Spatial_GCN, GAT
+```
 
+_Note: after the dispalyed visualisation of the untrained network, please close the window to conitnue executing the code_
 
+### Other files
+This repository also includes standalone GNN versions, that were used for testing and improving the code
+
+Also 3, optimal_x files are included which can be executed to calculate the optimal hyperparameters in a given search space. Do note that grid method is employed and is computaionally taxing.
