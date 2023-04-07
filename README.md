@@ -24,6 +24,7 @@ pip install matplotlib
 pip install torch
 pip install torch-geometric
 pip install scikit-learn
+pip install numphy
 ```
 
 This repository the Python 3.10.5 and the following Packages:
