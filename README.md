@@ -1,8 +1,7 @@
 # Comparing-Spectral-Spatial-GCNs-and-GATs
 
 ## Abstract
-
-This repository will include all files that were used in my 2023 6CCE3EEP Individual Project. 
+ 
 
 In order to create GNN, the following article by Awan, A. A named [“A Comprehensive Introduction to Graph Neural Networks (GNNs).”](https://www.datacamp.com/tutorial/comprehensive-introduction-graph-neural-networks-gnns-tutorial) was adapted. From this article, an understanding of the core techniques for implementing GNNs was obtained and hence a the code architecture was adapted to better suit the specific problem this paper aims to tackle.
 
